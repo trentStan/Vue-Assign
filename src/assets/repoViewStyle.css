@@ -1,0 +1,56 @@
+table {
+
+   margin: auto;
+   margin-top: 5px;
+   max-width: 75%;
+}
+
+td {
+   padding: 8px
+}
+
+.desc {
+   max-width: 75%;
+   margin: auto;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.list-group {
+   max-width: 75%;
+   margin: auto;
+}
+
+.list-group a {
+   margin-bottom: 15px;
+}
+
+#repolink:hover{
+   color: #6a97c5;
+}
+
+.link {
+   border: 1px red solid;
+   max-width: 60%;
+   margin: auto;
+   border-radius: 10px;
+}
+
+#statefilter {
+   margin-bottom: 5px;
+}
+
+#backtosearch {
+   position: fixed;
+   bottom: 60px;
+   right: 20px;
+   z-index: 100;
+}
+
+ul {
+   padding-top: 12px;
+}
+
+button[name="next"] {
+   margin-left: 5px;
+}

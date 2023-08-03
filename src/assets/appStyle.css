@@ -1,0 +1,46 @@
+#app {
+   font-family: Avenir, Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   text-align: center;
+   color: #2c3e50;
+}
+
+nav {
+   padding: 30px;
+   background-color: #ebda7d;
+   border-radius: 0px 0px 20px 20px;
+}
+
+nav a {
+   font-weight: bold;
+   color: #2c3e50;
+}
+
+.floatbtns {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   z-index: 100;
+}
+
+nav a {
+   background-color: #2c3e50;
+   padding: 15px;
+   border-radius: 5px;
+   color: aliceblue;
+
+}
+nav a:hover {
+
+color: #cceb5f;
+}
+
+nav a.router-link-exact-active {
+   color: #42b983;
+}
+
+nav a.router-link-exact-active:hover {
+   background-color: #44607c;
+   color: #48c98f;
+}
