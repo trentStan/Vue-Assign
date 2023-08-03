@@ -1,5 +1,5 @@
 
-const token = "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"
+const token = "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"
 
 const githubTools = {
 
